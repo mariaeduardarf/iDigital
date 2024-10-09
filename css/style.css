@@ -6,7 +6,7 @@
 body {
     font-family: "Spicy Rice", system-ui;  /*  sans-serif  */
     color: #352835;  /*    */
-    background: #ccbcc5 ;  /*   */
+    background: #f5c9e2 ;  /*   */
 }
 
 a {
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 15px auto;
     display: block;
     width: 120px;
-    border: 3px solid #701dd6;
+    border: 3px solid #bd90f4;
     box-shadow: 0px 5px 15px #1a1a1a;
 }
 
@@ -70,7 +70,99 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .perfil .social-links i:hover {
-    color: whitesmoke;
-    background: #342835;
+    color: rgb(245, 245, 245);
+    background: #e78aef;
     transition: all 0.3s;
+}
+
+/* Fim header */
+#main {
+    margin-left: 300px;
+}
+
+.container, .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Navigation Menu */
+/* Descktop Navigation*/
+.nav-menu {
+    padding: 30px 0 0 0;
+}
+
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu>ul>li {
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav-menu a, 
+.nav-menu a:focus {
+    display: flex;
+    align-items: center;
+    color:#a8a9b4;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.nav-menu a i,
+.nav-menu a:focus i {
+    font-size: 24px;
+    padding-right: 8px;
+    color: #ff119c;
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover>a {
+    text-decoration: none;
+    color:#e38ef0;
+}
+
+/* Mobile Menu*/
+.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    background: #560f70;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Resilução Mobile */
+
+@media (max-width: 1199px) { /* Max-widht até o valor proposto */
+    #header {
+        left: -300px;
+    }
+
+    #main {
+        margin-left: 0;
+    }
+
+    .container, .container-fluid {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
