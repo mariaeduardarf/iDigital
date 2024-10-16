@@ -182,3 +182,44 @@ h1, h2, h3, h4, h5, h6 {
     background: url(../img/hero-bg.webp) top center;
     background-size: cover;
 }
+#hero:before {
+    content: "";
+    background: rgba(245, 147, 196, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#hero .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color:  #ffffff;
+    /*background: ;*/
+    /*padding: 10px;*/
+    font-family: "Poppins"; /* Opcional*/
+}
+
+#hero p {
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+}
+
+#hero p span {
+    color: #ffffff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: #f593c4;
+}
