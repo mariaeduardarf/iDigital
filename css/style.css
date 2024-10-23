@@ -1,5 +1,5 @@
 /*Fonts Geral */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&display=swap 𝗦𝗮𝗻𝘀-𝗦𝗲𝗿𝗶𝗳 𝗕𝗼𝗹𝗱');
 
 
 
@@ -303,3 +303,30 @@ padding-bottom: 30px;
     display: flex;
     align-items: center;
 }
+
+.about .center ul strong {
+    margin-right: 10px;
+    color: #352835;
+    font-weight: 200;
+}
+
+.about .content ul span {
+    color: #1a1a1a;
+    font-family: "Opem Sans", sans-serif;
+    font-weight: 600;
+}
+
+.about .content p {
+    color: #1a1a1a;
+    font-family: "Poppins";
+    font-size: 600;
+    /* font-size: ; opcional*/
+}
+
+.about .content ul i {
+    font-size: 16px;
+    margin-right: 6px;
+    color: #560f70;
+    line-height: 0;
+}
+
